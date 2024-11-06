@@ -1,0 +1,80 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_about_malabar_spinach
+  - ask_climate_for_malabar_spinach
+  - ask_difference_malabar_traditional_spinach
+  - ask_cultivation
+  - ask_harvesting
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+  
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  - text: "I can help you with a variety of tasks, including answering questions and providing 
+information on a range of topics."
+
+
+#malabar introduction
+  utter_about_malabar_spinach:
+    - text: "Malabar spinach, known scientifically as Basella alba (green-stemmed) or Basella rubra (red-stemmed), is a tropical perennial vine and is widely cultivated as an annual vegetable."
+
+  utter_climate_for_malabar_spinach:
+    - text: "Malabar spinach flourishes in warm, humid conditions and can tolerate high temperatures, making it ideal for cultivation in tropical and subtropical regions."
+
+  utter_difference_malabar_traditional_spinach:
+    - text: "Unlike traditional spinach that thrives in cooler climates, Malabar spinach grows well in warm, humid conditions and can handle high temperatures."
+
+
+#Malabar spinach data
+  utter_answer_cultivation:
+    - text: "Malabar spinach should be planted in well-draining soil with plenty of sunlight."
+  utter_answer_harvesting:
+  - text: "Harvest Malabar spinach 50-70 days after planting by cutting the top 4-6 inches of the vine."
+
+
+
+
+
+
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_about_malabar_spinach
+  - utter_climate_for_malabar_spinach
+  - utter_difference_malabar_traditional_spinach
+  - utter_answer_cultivation
+  - utter_answer_harvesting
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

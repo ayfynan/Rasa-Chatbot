@@ -1,0 +1,132 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - assalamualaikum
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+#introduction malabar spinach
+
+- intent: ask_about_malabar_spinach
+  examples: |
+    - What is Malabar spinach?
+    - Tell me about Malabar spinach.
+    - What can you tell me about Malabar spinach?
+    - I want to know about Malabar spinach.
+    - Can you tell me about Malabar spinach?
+
+
+- intent: ask_climate_for_malabar_spinach
+  examples: |
+    - What climate does Malabar spinach need?
+    - In what conditions does Malabar spinach grow?
+    - Can Malabar spinach grow in warm areas?
+
+- intent: ask_difference_malabar_traditional_spinach
+  examples: |
+    - How is Malabar spinach different from regular spinach?
+    - What makes Malabar spinach different from traditional spinach?
+    - Compare Malabar spinach with traditional spinach.
+    - What are the differences between Malabar spinach and traditional spinach?
+   - what's the difference between malabar spinach and regular sp
+inach?
+
+- intent: ask_cultivation
+  examples: |
+    - How do I cultivate Malabar spinach?
+    - Tell me about planting Malabar spinach.
+- intent: ask_harvesting
+  examples: |
+    - When should I harvest Malabar spinach?
+    - How do I harvest Malabar spinach?
+    - What is the best time to harvest Malabar spinach?
+    - How do I know when Malabar spinach is ready to harvest?
+    - How do I harvest Malabar spinach for the first time?
+
+

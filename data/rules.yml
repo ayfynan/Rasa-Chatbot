@@ -1,0 +1,29 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+# malabar introduction
+- rule: Provide information about Malabar spinach
+  steps:
+  - intent: ask_about_malabar_spinach
+  - action: utter_about_malabar_spinach
+
+- rule: Provide climate information for Malabar spinach
+  steps:
+  - intent: ask_climate_for_malabar_spinach
+  - action: utter_climate_for_malabar_spinach
+
+- rule: Explain differences between Malabar and traditional spinach
+  steps:
+  - intent: ask_difference_malabar_traditional_spinach
+  - action: utter_difference_malabar_traditional_spinach

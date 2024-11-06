@@ -1,0 +1,53 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+#Malabar Introduction
+- story: Inquiring about Malabar spinach
+  steps:
+  - intent: ask_about_malabar_spinach
+  - action: utter_about_malabar_spinach
+  - intent: ask_climate_for_malabar_spinach
+  - action: utter_climate_for_malabar_spinach
+  - intent: ask_difference_malabar_traditional_spinach
+  - action: utter_difference_malabar_traditional_spinach
+
+
+- story: user asks about cultivation
+  steps:
+  - intent: ask_cultivation
+  - action:  utter_answer_cultivation
+
+- story: user asks about harvesting
+  steps:
+  - intent: ask_harvesting
+  - action: utter_answer_harvesting
+
+
+
