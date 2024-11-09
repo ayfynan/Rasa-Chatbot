@@ -37,17 +37,16 @@ stories:
   - action: utter_climate_for_malabar_spinach
   - intent: ask_difference_malabar_traditional_spinach
   - action: utter_difference_malabar_traditional_spinach
-
-
-- story: user asks about cultivation
+#Characteristics of Malabar Spinach
+- story: Discuss Malabar spinach growth habit
   steps:
-  - intent: ask_cultivation
-  - action:  utter_answer_cultivation
-
-- story: user asks about harvesting
-  steps:
-  - intent: ask_harvesting
-  - action: utter_answer_harvesting
+  - intent: ask_growth_habit
+  - action: utter_growth_habit
+  - intent: ask_varieties
+  - action: utter_varieties
+  - intent: ask_flowers_fruits
+  - action: utter_flowers_fruits
+  - action: action_listen
 
 
 

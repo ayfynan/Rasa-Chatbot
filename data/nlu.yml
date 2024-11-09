@@ -107,26 +107,63 @@ nlu:
     - What climate does Malabar spinach need?
     - In what conditions does Malabar spinach grow?
     - Can Malabar spinach grow in warm areas?
+    - Can Malabar spinach grow in cold areas?
+    - What temperature does Malabar spinach need?
+    - What temperature can Malabar spinach tolerate?
+    - Can Malabar spinach grow in tropical areas?
 
 - intent: ask_difference_malabar_traditional_spinach
   examples: |
+    - What is the difference between Malabar spinach and traditional spinach?
+    - How does Malabar spinach differ from regular spinach?
     - How is Malabar spinach different from regular spinach?
     - What makes Malabar spinach different from traditional spinach?
     - Compare Malabar spinach with traditional spinach.
     - What are the differences between Malabar spinach and traditional spinach?
-   - what's the difference between malabar spinach and regular sp
-inach?
+    - what is the difference between malabar spinach and regular spinach?
+    - how is malabar spinach different from spinach?
 
-- intent: ask_cultivation
+
+- intent: ask_growth_habit
   examples: |
-    - How do I cultivate Malabar spinach?
-    - Tell me about planting Malabar spinach.
-- intent: ask_harvesting
+    - What is the growth habit of Malabar spinach?
+    - How does Malabar spinach grow?
+    - Can you tell me about the growth characteristics of Malabar spinach?
+    - What are the growth characteristics of Malabar spinach?
+    - How does Malabar spinach grow in the wild?
+    - What is the growth habit of Malabar spinach in the wild?
+    - How does Malabar spinach grow in the garden?
+    - What are the growth characteristics of Malabar spinach in the garden?
+    - Can you tell me about the growth characteristics of Malabar spinach in the garden?
+
+
+- intent: ask_varieties
   examples: |
-    - When should I harvest Malabar spinach?
-    - How do I harvest Malabar spinach?
-    - What is the best time to harvest Malabar spinach?
-    - How do I know when Malabar spinach is ready to harvest?
-    - How do I harvest Malabar spinach for the first time?
+    - What varieties of Malabar spinach are there?
+    - Are there different types of Malabar spinach?
+    - Can you explain the varieties of Malabar spinach?
+    - What are the different types of Malabar spinach?
+    - Are there different varieties of Malabar spinach?
+    - Can you tell me about the different varieties of Malabar spinach?
+    - How many types of Malabar spinach are there?
+    - What are the different types of Malabar spinach that exist?
+    - Can you explain the different types of Malabar spinach?
+
+- intent: ask_flowers_fruits
+  examples: |
+    - What kind of flowers does Malabar spinach produce?
+    - Does Malabar spinach bear fruit?
+    - Does Malabar spinach bear flowers?
+    - What kind of fruit does Malabar spinach produce?
+    - Tell me about the flowers and fruits of Malabar spinach.
+    - What are the flowers and fruits of Malabar spinach?
+    - Can you tell me about the flowers and fruits of Malabar spinach?
+    - What are the characteristics of the flowers and fruits of Malabar spinach?
+    - Can you explain the flowers and fruits of Malabar spinach?
+    - Are the flowers and fruits edible?
+    - What are the edible flowers and fruits of Malabar spinach?
+    - Are they edible?
+
+
 
 

@@ -11,8 +11,10 @@ intents:
   - ask_about_malabar_spinach
   - ask_climate_for_malabar_spinach
   - ask_difference_malabar_traditional_spinach
-  - ask_cultivation
-  - ask_harvesting
+  - ask_growth_habit
+  - ask_varieties
+  - ask_flowers_fruits
+
 
 responses:
   utter_greet:
@@ -34,8 +36,7 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-  - text: "I can help you with a variety of tasks, including answering questions and providing 
-information on a range of topics."
+  - text: "I can help you with a variety of tasks, including answering questions and providing information on a range of topics."
 
 
 #malabar introduction
@@ -48,12 +49,16 @@ information on a range of topics."
   utter_difference_malabar_traditional_spinach:
     - text: "Unlike traditional spinach that thrives in cooler climates, Malabar spinach grows well in warm, humid conditions and can handle high temperatures."
 
+#Characteristics of Malabar Spinach
+  utter_growth_habit:
+    - text: "Malabar spinach is a climbing vine that can grow 6-10 feet or more, depending on growing conditions. It has succulent, heart-shaped leaves that are glossy and thick, providing a unique texture compared to other leafy greens."
 
-#Malabar spinach data
-  utter_answer_cultivation:
-    - text: "Malabar spinach should be planted in well-draining soil with plenty of sunlight."
-  utter_answer_harvesting:
-  - text: "Harvest Malabar spinach 50-70 days after planting by cutting the top 4-6 inches of the vine."
+  utter_varieties:
+    - text: "The two main types of Malabar spinach are Basella alba, which has green stems, and Basella rubra, which has vibrant red stems. Both varieties produce similar leaves and can be grown interchangeably based on personal preference."
+
+  utter_flowers_fruits:
+    - text: "Malabar spinach produces small, pink or white flowers, followed by dark purple berries. While the berries are ornamental, they are also edible and can be used to make a natural dye."
+
 
 
 
@@ -67,8 +72,10 @@ actions:
   - utter_about_malabar_spinach
   - utter_climate_for_malabar_spinach
   - utter_difference_malabar_traditional_spinach
-  - utter_answer_cultivation
-  - utter_answer_harvesting
+  - utter_growth_habit
+  - utter_varieties
+  - utter_flowers_fruits
+
 
 
 

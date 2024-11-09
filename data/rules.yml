@@ -27,3 +27,20 @@ rules:
   steps:
   - intent: ask_difference_malabar_traditional_spinach
   - action: utter_difference_malabar_traditional_spinach
+
+  #Characteristics of Malabar Spinach
+- rule: Respond to growth habit query
+  steps:
+  - intent: ask_growth_habit
+  - action: utter_growth_habit
+
+- rule: Respond to varieties query
+  steps:
+  - intent: ask_varieties
+  - action: utter_varieties
+
+- rule: Respond to flowers and fruits query
+  steps:
+  - intent: ask_flowers_fruits
+  - action: utter_flowers_fruits
+
