@@ -44,3 +44,39 @@ rules:
   - intent: ask_flowers_fruits
   - action: utter_flowers_fruits
 
+#Nutritional Value and Health Benefits
+
+- rule: Provide nutrients information about Malabar spinach
+  steps:
+  - intent: ask_nutrients_malabar_spinach
+  - action: utter_nutrients_malabar_spinach
+
+- rule: Provide health benefits information about Malabar spinach
+  steps:
+  - intent: ask_health_benefits_malabar_spinach
+  - action: utter_health_benefits_malabar_spinach
+
+
+#Culinary uses
+- rule: Provide culinary uses of Malabar spinach
+  steps:
+  - intent: ask_culinary_uses_malabar_spinach
+  - action: utter_culinary_uses_malabar_spinach
+
+#soil condition
+- rule: Provide soil conditions for Malabar spinach
+  steps:
+  - intent: ask_soil_conditions_malabar_spinach
+  - action: utter_soil_conditions_malabar_spinach
+
+#benefits
+- rule: Provide reasons to grow Malabar spinach
+  steps:
+  - intent: ask_why_grow_malabar_spinach
+  - action: utter_why_grow_malabar_spinach
+
+#Planting Malabar Spinach
+- rule: Provide sunlight requirements for Malabar spinach
+  steps:
+  - intent: ask_sunlight_requirements_malabar_spinach
+  - action: utter_sunlight_requirements_malabar_spinach

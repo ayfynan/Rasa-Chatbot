@@ -48,5 +48,31 @@ stories:
   - action: utter_flowers_fruits
   - action: action_listen
 
+#nutrietts and health benefits
+- story: Comprehensive Malabar spinach inquiry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_nutrients_malabar_spinach
+  - action: utter_nutrients_malabar_spinach
+  - intent: ask_health_benefits_malabar_spinach
+  - action: utter_health_benefits_malabar_spinach
+  - intent: goodbye
+  - action: utter_goodbye
+
+# planting
+- story: Detailed planting inquiry for Malabar spinach
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_soil_conditions_malabar_spinach
+  - action: utter_soil_conditions_malabar_spinach
+  - intent: ask_sunlight_requirements_malabar_spinach
+  - action: utter_sunlight_requirements_malabar_spinach
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+
 
 

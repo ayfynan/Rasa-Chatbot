@@ -45,10 +45,7 @@ nlu:
     - no
     - n
     - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+
 
 - intent: mood_great
   examples: |
@@ -56,16 +53,7 @@ nlu:
     - great
     - amazing
     - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+
 
 - intent: mood_unhappy
   examples: |
@@ -74,15 +62,7 @@ nlu:
     - I don't feel very well
     - I am disappointed
     - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+
 
 - intent: bot_challenge
   examples: |
@@ -164,6 +144,78 @@ nlu:
     - What are the edible flowers and fruits of Malabar spinach?
     - Are they edible?
 
+#Nutritional Value and Health Benefits
+- intent: ask_nutrients_malabar_spinach
+  examples: |
+    - What nutrients does Malabar spinach contain?
+    - Tell me about the nutrients in Malabar spinach.
+    - What vitamins are in Malabar spinach?
+    - What minerals are in Malabar spinach?
+    - Can you explain the nutritional value of Malabar spinach?
+    - Can you tell me about the nutritional benefits of Malabar spinach?
+    - Can you explain the nutritional value of Malabar spinach?
 
+
+
+- intent: ask_health_benefits_malabar_spinach
+  examples: |
+    - What are the health benefits of eating Malabar spinach?
+    - How is Malabar spinach good for health?
+    - What does Malabar spinach do for your body?
+    - Can you explain the health benefits of Malabar spinach?
+    - Can you tell me about the health benefits of Malabar spinach?
+    - What are the medicinal properties of Malabar spinach?
+    - Can you explain the medicinal properties of Malabar spinach?
+    - What are the health benefits of consuming Malabar spinach?
+
+#Culinary uses
+- intent: ask_culinary_uses_malabar_spinach
+  examples: |
+    - What are the culinary uses of Malabar spinach?
+    - How can I use Malabar spinach in cooking?
+    - Tell me ways to cook Malabar spinach.
+    - Can Malabar spinach be used raw?
+    - What dishes can I use Malabar spinach in?
+    - Can you give me some recipes that use Malabar spinach?
+    - How can I incorporate Malabar spinach into my meals?
+    - What are some creative ways to use Malabar spinach?
+    - Can you suggest some ways to use Malabar spinach in salads?
+    - Can you suggest some ways to use Malabar spinach in soups?
+    - Can you suggest some ways to use Malabar spinach in stir-fries?
+    - Can you suggest some ways to use Malabar spinach in curries?
+    - culinary benefits of malabar spinach?
+
+#soil condition
+- intent: ask_soil_conditions_malabar_spinach
+  examples: |
+    - What type of soil is needed for Malabar spinach?
+    - How should I prepare the soil for planting Malabar spinach?
+    - Does Malabar spinach need well-draining soil?
+    - Can Malabar spinach grow in poor soil?
+    - Can Malabar spinach grow in sandy soil?
+
+#benefits
+- intent: ask_why_grow_malabar_spinach
+  examples: |
+    - Why should I grow Malabar spinach?
+    - What are the benefits of growing Malabar spinach?
+    - What are the advantages of planting Malabar spinach?
+    - Why is Malabar spinach a good crop to grow?
+    - What are the benefits of having Malabar spinach in my garden?
+    - Why should I choose Malabar spinach over other leafy greens?
+    - What are the benefits of growing Malabar spinach in my backyard?
+    - benefits of malabar spinach?
+
+#Planting Malabar Spinach
+- intent: ask_sunlight_requirements_malabar_spinach
+  examples: |
+    - What are the sunlight requirements for Malabar spinach?
+    - How much sun does Malabar spinach need?
+    - Can Malabar spinach grow in partial shade?
+    - Can Malabar spinach grow in full sun?
+    - How much direct sunlight does Malabar spinach need?
+    - Can Malabar spinach grow in indirect sunlight?
+    - What is the ideal sunlight for Malabar spinach?
+    - How much sunlight does Malabar spinach need per day?
 
 

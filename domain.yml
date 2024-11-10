@@ -14,6 +14,15 @@ intents:
   - ask_growth_habit
   - ask_varieties
   - ask_flowers_fruits
+  - ask_nutrients_malabar_spinach
+  - ask_health_benefits_malabar_spinach
+  - ask_culinary_uses_malabar_spinach
+  - ask_soil_conditions_malabar_spinach
+  - ask_why_grow_malabar_spinach
+  - ask_sunlight_requirements_malabar_spinach
+
+  
+  
 
 
 responses:
@@ -39,12 +48,13 @@ responses:
   - text: "I can help you with a variety of tasks, including answering questions and providing information on a range of topics."
 
 
-#malabar introduction
+#introduction
   utter_about_malabar_spinach:
     - text: "Malabar spinach, known scientifically as Basella alba (green-stemmed) or Basella rubra (red-stemmed), is a tropical perennial vine and is widely cultivated as an annual vegetable."
 
   utter_climate_for_malabar_spinach:
-    - text: "Malabar spinach flourishes in warm, humid conditions and can tolerate high temperatures, making it ideal for cultivation in tropical and subtropical regions."
+    - text: "Malabar spinach flourishes in warm, humid conditions and can tolerate high temperatures, making it ideal for cultivation in tropical and subtropical regions. It is best grown in temperatures above 20°C (68°F) and prefers
+full sun but can tolerate partial shade"
 
   utter_difference_malabar_traditional_spinach:
     - text: "Unlike traditional spinach that thrives in cooler climates, Malabar spinach grows well in warm, humid conditions and can handle high temperatures."
@@ -59,10 +69,27 @@ responses:
   utter_flowers_fruits:
     - text: "Malabar spinach produces small, pink or white flowers, followed by dark purple berries. While the berries are ornamental, they are also edible and can be used to make a natural dye."
 
+#Nutritional Value and Health Benefits
+  utter_nutrients_malabar_spinach:
+    - text: "Malabar spinach is rich in vitamins A, C, and B6, folate, iron, calcium, and magnesium. It's also a good source of dietary fiber and antioxidants."
 
+  utter_health_benefits_malabar_spinach:
+    - text: "Malabar spinach supports immune health, promotes healthy skin and vision, aids digestion, and helps maintain bone health. It's hydrating and refreshing due to its high water content."
 
+#Culinary uses
+  utter_culinary_uses_malabar_spinach:
+    - text: "Malabar spinach has a slightly peppery flavor, ideal for various dishes. It can be eaten raw in salads, offering a crisp texture, or cooked in stir-fries, soups, curries, and stews where it thickens the dishes. Additionally, its berries can make natural dyes for beverages and food coloring."
 
+#soil condition
+  utter_soil_conditions_malabar_spinach:
+    - text: "Malabar spinach requires well-draining, fertile soil with a pH between 6.5 and 7.0. Amending the soil with organic matter, such as compost or manure, can improve fertility and drainage."
+#benefits
+  utter_why_grow_malabar_spinach:
+    - text: "Malabar spinach is a great choice for gardens, especially in hot climates due to its heat tolerance. It can be grown as a perennial in warmer areas, offering a continuous supply of greens. Additionally, its vigorous growth and colorful red-stemmed variety make it an attractive ornamental plant, enhancing the aesthetic appeal of any garden."
 
+#Planting Malabar Spinach
+  utter_sunlight_requirements_malabar_spinach:
+    - text: "Malabar spinach grows best in full sun, receiving 4-6 hours of direct sunlight daily. It can tolerate partial shade but thrives in warmer conditions."
 
 
 
@@ -75,6 +102,12 @@ actions:
   - utter_growth_habit
   - utter_varieties
   - utter_flowers_fruits
+  - utter_nutrients_malabar_spinach
+  - utter_health_benefits_malabar_spinach
+  - utter_culinary_uses_malabar_spinach
+  - utter_soil_conditions_malabar_spinach
+  - utter_why_grow_malabar_spinach
+  - utter_sunlight_requirements_malabar_spinach
 
 
 
